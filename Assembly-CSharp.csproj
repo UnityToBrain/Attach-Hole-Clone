@@ -42,7 +42,8 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\JoyStick.cs" />
-     <Compile Include="Assets\LayerManager.cs" />
+     <Compile Include="Assets\Scripts\LayerManager.cs" />
+     <Compile Include="Assets\Scripts\HoleManager.cs" />
      <Compile Include="Assets\Scripts\JoystickManager.cs" />
      <None Include="Assets\Scripts\ZWriteOff.shader" />
      <Reference Include="UnityEngine">
@@ -756,6 +757,9 @@
      <Reference Include="Unity.Services.Core">
      <HintPath>F:\YouTube_UnityToBrain\Runner Template\youtube attack hole\My project\Library\ScriptAssemblies\Unity.Services.Core.dll</HintPath>
      </Reference>
+     <Reference Include="Cinemachine">
+     <HintPath>F:\YouTube_UnityToBrain\Runner Template\youtube attack hole\My project\Library\ScriptAssemblies\Cinemachine.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.Services.Core.Analytics">
      <HintPath>F:\YouTube_UnityToBrain\Runner Template\youtube attack hole\My project\Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll</HintPath>
      </Reference>
@@ -764,6 +768,9 @@
      </Reference>
      <Reference Include="Unity.RenderPipelines.Universal.Editor">
      <HintPath>F:\YouTube_UnityToBrain\Runner Template\youtube attack hole\My project\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="com.unity.cinemachine.editor">
+     <HintPath>F:\YouTube_UnityToBrain\Runner Template\youtube attack hole\My project\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Shared.Editor">
      <HintPath>F:\YouTube_UnityToBrain\Runner Template\youtube attack hole\My project\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
